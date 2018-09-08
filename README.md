@@ -32,8 +32,13 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+https://github.com/dmavridis/DQN-Navigation.git2. Clone this code running the command
+`git clone https://github.com/dmavridis/DQN-Navigation.git`  and navigate to the root folder.
+3. Install the necessary python packages by running `pip install .`
+
+
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to see the required step to run the environment.
+
+Follow the instructions in `report.ipynb` to see the required steps to run the environment in interactive mode. 
