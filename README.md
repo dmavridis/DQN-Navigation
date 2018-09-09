@@ -22,7 +22,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+1. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -32,9 +32,16 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-https://github.com/dmavridis/DQN-Navigation.git2. Clone this code running the command
+2. Clone this code running the command
 `git clone https://github.com/dmavridis/DQN-Navigation.git`  and navigate to the root folder.
-3. Install the necessary python packages by running `pip install .`
+
+3. - Create a new environment `conda create --name drlnd python=3.6` 
+   - Load the environment `source activate drlnd`
+   - `cd DQN-Navigation`
+
+4. Install the necessary python packages by running `pip install .`
+
+5. Extract the downloaded `Banana ***.zip` Unity environment executeble at the folder of the python environment
 
 
 
